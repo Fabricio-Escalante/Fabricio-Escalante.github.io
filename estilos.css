@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+.logo{
+
+     width: 80px; 
+    height: auto; 
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.nav-link:hover{
+    color: aqua;
+}
+a i{
+    font-size: 50px;
+    color: white;
+
+}
+
+.bgredes{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px;
+}
+
+.img-fluid{
+    transition: transform 2.5s ease; 
+}
+
+
+.img-fluid:hover {
+    transform: translateX(-2%); 
+}
+main{
+    padding: 100px;
+}
+.fullscreen-video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.center-content {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  /* Título grande y con grosor moderado */
+  .large-title {
+    font-size: 3rem; /* Letra grande */
+    font-weight: 500; /* Grosor moderado */
+  }
+
+  /* Texto mediano */
+  .medium-text {
+    font-size: 1.25rem; /* Letra mediana */
+    font-weight: 400; /* Grosor normal */
+    margin-top: 20px;
+  }
+
+  /* Asegura que las imágenes se ajusten bien */
+  .images-row img {
+    width: 100%; /* Asegura que las imágenes se adapten a su contenedor */
+    height: auto;
+  }
+
+  /* Contenedor de imágenes con padding */
+  .image-container {
+    padding: 10px;
+  }
